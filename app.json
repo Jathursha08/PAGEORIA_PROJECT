@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "PAGEORIA",
+    "slug": "pageoria",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#3D4E45",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-sqlite",
+      "expo-font",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "PAGEORIA uses your photos only to let you choose a cover for a book. Images stay on this device."
+        }
+      ],
+      "expo-sharing"
+    ],
+    "description": "A Digital Book Haven for Reading Journeys, Story Reflections and Creative Imagination.",
+    "backgroundColor": "#F8F5EF"
+  }
+}
